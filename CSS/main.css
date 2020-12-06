@@ -1,0 +1,88 @@
+body{
+  background-color: #fdfdfd;
+}
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size:.50rem;
+  justify-content: center;
+  align-items: center;
+}
+
+  .carousel-item {
+    height: 350px;
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 800px;
+    width: auto  
+  }
+
+  .carousel-caption{
+    bottom: 70px;
+
+  }
+
+  .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+  img.rounded.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height:150px;
+  }
+
+  img.featurette-image.img-fluid.mx-auto{
+    width: 350px;
+    height: 250px;
+  }
+
+  img.logo-img{
+    width: 60px;
+    height:60px;
+  }
+  
+  .jumbotron.jumbotron-fluid.section-2{
+    height: 100px;
+    background-image: linear-gradient(red, yellow);
+  }
+
+  .lead-footer {
+    font-size: .50rem;
+    font-weight: 300;
+  }
+  
+  li.nav-item{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .nav-link{
+    color: #004085;
+  }
+
+  #services{
+    background-color: white;
+  }
